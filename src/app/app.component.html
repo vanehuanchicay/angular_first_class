@@ -1,4 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<app-register></app-register>
+
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -6,4 +8,3 @@
 </div>
 
 <app-poem [id]=0 [mostrarVersos]="poemas[0]" (onMostrar)= "onShowPoem($event)"></app-poem>
-<app-poem [id]=1 [mostrarVersos]="poemas[1]" (onMostrar)= "onShowPoem($event)"></app-poem>

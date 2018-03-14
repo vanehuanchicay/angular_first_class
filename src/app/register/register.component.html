@@ -1,0 +1,4 @@
+<p *ngIf="authService.user | async"> 
+  {{authService.user.email}}
+</p>
+<!-- cuando los valores pueden o no existir async espera a que haya algo -->
